@@ -11,6 +11,8 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade torch
 
 RUN pip install --upgrade wandb xgboost
+
+RUN pip install --upgrade biopython
 #
 # RUN pip install --upgrade concrete cmdstanpy arviz pymer4 statsmodels mlflow joypy scikit-learn krippendorff
 #
